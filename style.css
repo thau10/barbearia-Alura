@@ -1,6 +1,12 @@
 body{
     background-color: #ccc
-    
+   
+
+
+}
+
+#banner{
+    width: 100%;
 }
 h1{
     color: black;
