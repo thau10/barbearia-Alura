@@ -1,5 +1,7 @@
 body{
-    background-color: #ccc
+    background-color: white;
+    .principal
+
    
 
 
@@ -24,6 +26,15 @@ font-size: 20px;
 
 em strong{
     color: red;
+}
+
+.itens{
+    font-style: italic;
+
+}
+
+.beneficios{
+background-color: white;
 }
 
     
