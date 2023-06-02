@@ -32,3 +32,12 @@ nav a{
     text-decoration: none;
     
 }
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+}
