@@ -26,7 +26,15 @@ nav a {
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
+
 }
+
+nav a:hover{
+	color: darkgoldenrod;
+	text-decoration: underline;
+}
+
+
 .produtos{
 	width: 940px;
 	margin: 0 auto;
@@ -49,6 +57,11 @@ nav a {
 .produtos h2{
 	font-size: 30px;
 	font-weight: bold;
+}
+
+.produtos li:hover{
+	border-color: darkgoldenrod;
+	color: darkgoldenrod;
 }
 
 .produtos-preco{
