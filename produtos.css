@@ -38,6 +38,7 @@ nav a:hover{
 .produtos{
 	width: 940px;
 	margin: 0 auto;
+	padding: 50px;
 		
 }
 .produtos li{
@@ -64,13 +65,31 @@ nav a:hover{
 	color: darkgoldenrod;
 }
 
+.produtos li:hover h2{
+	font-size: 40px;
+}
+
 .produtos-preco{
 	font-size: 22px;
 	font-weight: bold;
 	margin: 10px
+
 	
 ;
 }
+
+footer{
+background-color: #cccccc;
+text-align: center;
+background: url(bg.jpg);
+padding: 30px 0;
+}
+footer p{
+	color: white;
+	font-size: 12px;
+}
+
+
 
 .produto-descricao{
 	font-size: 18px;
