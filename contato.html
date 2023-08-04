@@ -5,41 +5,50 @@
 		<title>Produtos - Barbearia Alura</title>
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="style.css">
-		
 	</head>
-	<body>
-		<header>
-			<div class="caixa">
-				<h1><img src="logo.png"></h1>
+	<header>
+		<div class="caixa">
+			<h1><img src="logo.png"></h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="produtos.html">Produtos</a></li>
+					<li><a href="contato.html">Contato</a></li>
+				</ul>
+			</nav>
+	</header>
 
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="produtos.html">Produtos</a></li>
-						<li><a href="contato.html">Contato</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-
-	  <main>
+	<main>
 		<form action="">
-			<label for="nomesobreno"> Nome e Sobrenome</label>
+			<label for="nomesobrenome">Nome e Sobrenome</label>
 			<input type="text" id="nomesobrenome">
 
-			<label for="email"> Email</label>
+			<label for="email">Email</label>
 			<input type="text" id="email">
-			
-			<label for="telefne">telefone</label>
+
+			<label for="telefone">Telefone</label>
 			<input type="text" id="telefone">
 
-			<input type=" submit" value="clique aqui">
+			<label for="mensagem">Digite sua mensagem:</label>
+			<textarea name="mensagem" id="mensagem" cols="62" rows="10"></textarea>
+
+			<label for="contato">Como prefere o nosso contato?</label>
+			<input type="radio">
+			<input type="radio">
+			<input type="radio">
+
+			<input type="submit" value="Clique aqui!!">
+
 		</form>
-	 </main>
+	</main>
+
+	
+	<footer>
 
 
-		<footer>
-			<img src="logo-branco.png" alt="">
-			<p> &copy;  Copyright- Thauane Lourenco 2023</p>
-		</footer>
-	</body>
+		<img src="logo-branco.png" alt="">
+		<p>&copy; Copyright - Criado por Thauane lourenco 2023 </p>
+	</footer>
+		
+	<body>
+		
