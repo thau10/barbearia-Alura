@@ -1,9 +1,10 @@
 header {
-	background: #ccc;
+	background: #771414;
 	padding: 20px 0;
 }
 
 .caixa{
+	background: #f3f1f1;
 	width: 940px;
 	position: relative;
 	margin: 0 auto;
@@ -22,7 +23,7 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #f0e5e5;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
