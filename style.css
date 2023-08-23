@@ -22,14 +22,14 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #0f0f0f;
+	color: #e0d6e6;
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
 }
 
 nav a:hover{
-	color: #c5afc3;
+	color: #ecb0e7;
 	text-decoration: underline;
 }
 
