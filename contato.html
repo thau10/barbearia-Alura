@@ -21,31 +21,32 @@
 	<main>
 		<form action="">
 			<label for="nomesobrenome">Nome e Sobrenome</label>
-			<input type="text" id="nomesobrenome">
+			<input type="text" id="nomesobrenome" class="input-padrao" required placeholder=" digiteseunomeesobrenome">
 
 			<label for="email">Email</label>
-			<input type="email" id="email">
+			<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com.br">
+
 
 			<label for="telefone">Telefone</label>
-			<input type="tel" id="telefone">
+			<input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
 
 			<label for="mensagem">Digite sua mensagem:</label>
-			<textarea name="mensagem" id="mensagem" cols="62" rows="10"></textarea>
+			<textarea name="mensagem" id="mensagem" cols="62" rows="10" required placeholder="digite aqui sua mensagem" ></textarea>
 
 			<div>
 				<label for="contato">Como prefere o nosso contato?</label>
-				<input type="radio" value="email" id="imail-radio" name="contato" >
-				<label for="email-radio">email</label>
-				<input type="radio" value="ligaçao" id="ligaçao" name="contato">
-				<label for="ligaçao"> ligaçao</label>
-				<input type="radio" value="whatsapp" id="whatsapp" name="contato">
-				<label for="whatsapp"> whatsapp</label> 
+				
+				<label for="email-radio"><input type="radio" value="email" id="imail-radio" name="contato" >email</label>
+				
+				<label for="ligaçao"> <input type="radio" value="ligaçao" id="ligaçao" name="contato">ligaçao</label>
+				
+				<label for="whatsapp"><input type="radio" value="whatsapp" id="whatsapp" name="contato"> whatsapp</label> 
 			</div>
 
-			<label> <input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+			<label> <input class="checkbox" type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
 			
 
-			<input type="submit" value="Clique aqui!!">
+			<input class=" enviar" type="submit" value="Clique aqui!!">
 			
 			
 
