@@ -141,5 +141,5 @@ textarea{
 .enviar:hover{
 	background-color:white;
 	color: #743274;
-	transform: scale(3);
+	transform: scale(1);
 }
