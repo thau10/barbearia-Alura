@@ -143,3 +143,17 @@ textarea{
 	color: #743274;
 	transform: scale(1);
 }
+table{
+	margin: 20px 0 40px;
+}
+
+thead{
+	background-color: #e0d6e6;
+	color: #743274;
+	font-weight: bold;
+}
+
+td{
+	border: 1px solid beige;
+	padding: 15px 10px;
+}
