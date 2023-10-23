@@ -166,9 +166,14 @@ td{
 	text-align: center;
 	font-size: 2em;
 	margin: 1em 0 1em;
+	font-family: 'Lobster', sans-serif;
+	color: #743274;
 }
 .principal p{
 	margin: 0 0 1em;
+	font-family: 'Tai Heritage Pro', serif;
+	font-size: 19px;
+
 }
 .principal strong{
 	font-weight: bold;
@@ -176,6 +181,7 @@ td{
 }
 .principal em{
 	font-style: italic;
+	
 }
 .imagembeneficios{
 	width: 60%;
